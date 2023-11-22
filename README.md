@@ -2,7 +2,7 @@
 Aqui eu mostro todos os exercícios que fiz e estou fazendo dentro da plataforma da DIO. 
 Começando com estruturas básicas de html como por exemplo: Listas, links, corpo e cabeçalho.
 
-##Podemos ver também nesse documento que temos formulários e inicando comandos de JAVASCRIPT para imprimir mensagens no navegador.
+#Podemos ver também nesse documento que temos formulários e inicando comandos de JAVASCRIPT para imprimir mensagens no navegador.
 Fazemos isso com os seguintes comandos e funções:
 <!DOCTYPE html>
 <html lang="en">

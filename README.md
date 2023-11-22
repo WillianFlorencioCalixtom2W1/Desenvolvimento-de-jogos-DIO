@@ -9,6 +9,7 @@ Fazemos isso com os seguintes comandos e funções:
   <head>
     <meta charset="UTF-8">
     < meta name="viewport" content =width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
   </head>
   <body>
     <form name="signup"target="_blank" onsubmit="alert('formulario enviado')"method="post" action="#">

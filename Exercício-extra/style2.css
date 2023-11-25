@@ -5,26 +5,32 @@
     padding: 0px;
 }
 body{
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(0, 0, 0);
 }
 
 #top-page{
-    margin: 40px;
+    margin: auto;
+    width: 97%;
+    height: 120px;
     padding: 10px;
-    background-color: #000009;
+    background-color: #020228;
     border: 1px solid #000000;
     border-radius: 10px;
 }
-.button{
-   margin: 0 10px;
-   margin-left: 45px;
-   padding: 20px;
-   width: 60;
+button{
+   margin-bottom: 10px;
+   margin-left: 140px;
+   padding: 10px;
+   padding-bottom: 25px;
    height: 30px;
    border-radius: 10px;
-   text-align: center;
-    
-}
-.button-container{
-    margin-top: 20px;
+   color: aliceblue;
+   background-color: rgb(22, 13, 155);
+   text-align: center; 
+   text-shadow:1px 2px 0px #000000;
+}  
+button:hover{
+    background-color: #ff0a0a;
+    box-shadow: 7px 7px 0px #9c050554;
+    text-shadow:2px 2px 0px #ff7e7e66;
 }

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+h1{
+    background-color: #00008b;
+    color: lightgreen;
+}
+
+div{
+    background: #0009ac58;
+    color: darkblue;
+}
+li{
+    background: #90ee90;
+}
+#explicacao-seletores{
+    background-color: #ff0000;
+    color: #fff;
+}
+.seletores-mais-comuns{
+    color: #ff0000;
+}
+.texto-maiusculo{
+    text-transform: uppercase;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha CSS</title>
+    <style>
+        .fundo-verde li {
+            background-color: lightgreen;
+        }
+       .fundo-verde > #sublista-01 > li {
+            color: black;
+        }
+        li {
+            color: red;
+        }
+        .fundo-azul li {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="fundo-verde" id="lista-01">
+            Item 1
+            <ul id="sublista-01">
+            <li>Subitem A</li>
+            <li>Subitem B</li>   
+    </ul>
+        </li>
+    </ul>
+    <ul>
+        <li class="fundo-verde" id="lista-02">
+            Item 2
+            <ul id="sublista-02">
+                <li>Subitem A</li>
+                <li>Subitem B</li>
+
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li class="fundo-azul" id="lista-03">
+            Item 3
+            <ul id="sublista-03">
+                <li>Subitem A</li>
+                <li>Subitem B</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

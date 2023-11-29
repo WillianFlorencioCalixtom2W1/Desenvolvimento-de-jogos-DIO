@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #000;
+    color: #fff;
+}
+header h1 {
+    text-align: center;
+    text-shadow: 6px 5px 5px #f7f7f745;
+}
+article {
+    margin: auto;
+    max-width: 1024px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+.ganhos {
+    margin: 5px;
+    width: 200px;
+    background-color: #008000;
+   
+}
+
+.obrigatorios {
+    margin-left: 350px;
+}
+table {
+    margin: auto;
+    margin-top:90px ;
+    border: 1px solid #ffffff;
+    border-radius:10px ;
+    border-collapse:collapse ;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ffffff;
+}
+.ganho {
+    color:#000000;
+    background-color: #008000;
+}
+.para-lazer {
+    color: #fff;
+    background-color: #add8e6;
+}
+th.guardar {
+    background-color: #ffc000 ;
+}
+.gastos {
+    background-color: #ff0000;
+    color: #fff;
+}
+ul,li {
+    text-align: left;
+}

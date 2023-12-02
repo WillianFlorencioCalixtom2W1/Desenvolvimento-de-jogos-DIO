@@ -25,16 +25,20 @@ body{
 .nav-bar{
     margin: auto;
     width:100%;
+
     display: flex;
   
 }
 
 #top-page{
     margin: auto;
-    width: 100%;
+    margin-left:100px ;
+    width: 100em;
+    max-width:1290px;
+    min-width: 270px;
     padding: 10px;
     background-color: #020228;
-    background-size: cover;
+    background-size: 100%;
     border: 1px solid #000000;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #0000ff3e;
@@ -86,7 +90,7 @@ h2{
     text-shadow:7px 6px 0px #f10d0d4e;
 
 }
-h3{
+h3 {
     margin: 40px;
     color: #fff;
     text-align: center;
@@ -108,4 +112,29 @@ fieldset{
     font-size: 1.5em;
     color:#fff;
 
+}
+.list-of-visibility {
+    margin-left: auto;
+    max-width: 1290px;
+    min-width: 270px;
+    padding: 10px;
+    top: 0px;
+    bottom: 0;
+    width:250px;
+    display:list-item;
+    color: #fff;
+    text-shadow:4px 4px 4px #ffffff47 ;
+}
+.list-of-visibility  ul {
+    width:200px; 
+    padding: 50px; 
+    top: 0;
+    background-image: url(Images/plano-de-fundo-texturizado-hexadecimal-para-redes_23-2150080759.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #fff;
+    font-size: 1.5em;
+}
+.list-of-visibility  li {
+    padding: 10px;
 }

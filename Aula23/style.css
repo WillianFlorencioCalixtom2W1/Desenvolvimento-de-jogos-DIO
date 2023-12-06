@@ -29,6 +29,5 @@ main {
 
 }
 section .module:last-child {
-    margin-bottom: 0; n
-
+    margin-bottom: 0;
 }

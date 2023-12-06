@@ -74,6 +74,7 @@ img:hover{
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 7px 7px 7px 7px #ffffff1a;
+    background-attachment: fixed;
 }
 h1{
     margin: 40px;
@@ -101,6 +102,7 @@ span{
 }
 fieldset{
     background-image: url(Images/plano-de-fundo-texturizado-hexadecimal-para-redes_23-2150080759.avif);
+    background-attachment: fixed;
     margin: auto;
     margin-left: 100px;
     padding: 20px;

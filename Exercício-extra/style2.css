@@ -71,9 +71,7 @@ button:hover{
     text-shadow:2px 2px 0px #ff7e7e66;
 }
 img:hover{
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 7px 7px 7px 7px #ffffff1a;
+    filter: drop-shadow( 7px 7px 7px  #ffffff48);
     background-attachment: fixed;
 }
 h1{

@@ -4,18 +4,30 @@
  body {
     background-color: #000000;
     color: #eaffff;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../images/banner.png);
+
 }
 .top-page {
     margin: auto;
     padding: 10px;
-    background-image: url(images/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../images/banner.png);
+    background-image: url(images/banner.png);
 }
+.top-page img {
+    display: block;
+    margin: auto;
+}
+img.logo {
+    filter: drop-shadow(7px 7px 7px #000000);
+    background-attachment: fixed;
+}    
+
 .text-page + h1 {
     margin: auto;
 }
+
 .top-page p {
     font-size:1.25em;
     margin:16px 0px 24;
@@ -24,7 +36,30 @@ h1 {
     font-size: 2.5em;
     font-weight: 900;
     text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
+button {
+    margin: auto;
+    width: 450px;
+    height: 55px;
+    padding: 16px 32px;
+    margin-bottom: 60px;
+    background-color: transparent ;
+    color:#33A8DB;
+    font-size: 1em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: 3px;
+    border-color: #1472B7;
+    display:block;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border-radius: 30px;
+}
+
 .container {
     margin: auto;
     width: 600px;
@@ -33,4 +68,10 @@ h1 {
     color: #eaffff;
    
 }
-
+hr {
+    background-color: 1px solid #33A8DB80;
+}
+.o-que-vamos-aprender {
+    margin: auto;
+    display: block;
+}
